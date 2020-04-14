@@ -1,0 +1,178 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.container {
+  padding: 1rem;
+}
+
+#navbar .container {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+#navbar .container .logo {
+  width: 25%;
+}
+
+#navbar .container ul li {
+  padding-left: 1.5rem;
+}
+
+#heading .container {
+  grid-template-columns: 1fr;
+}
+
+#heading .container .head-img {
+  grid-row: 1 / 2;
+}
+
+#heading .container .head-text {
+  grid-row: 2 / 3;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+#heading .container .head-text p {
+  padding-bottom: 1rem;
+}
+
+#heading .container .form {
+  display: block;
+}
+
+#heading .container .btn {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.8rem;
+}
+
+#body-sec .container {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+#body-sec .body-img {
+  grid-row: 1 / 2;
+}
+
+#body-sec .text-sec {
+  grid-row: 2 / 3;
+}
+
+#body-sec .container .text-sec .review p {
+  color: black;
+  font-size: 0.8rem;
+}
+
+#body-sec .container .text-sec p {
+  padding: 0;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+#body-sec .container h1 {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+
+#body-sec .container .text-sec .link,
+#body-sec .container .text-sec .review {
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+#body-sec .container .text-sec .review {
+  width: 70%;
+}
+
+#body-sec .container .text-sec .review > img {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+#body-sec .container .text-sec .review .img ul li {
+  text-align: left;
+}
+
+#access-sec .container {
+  grid-template-columns: 1fr;
+  text-align: center;
+  grid-gap: 0;
+  padding-bottom: 2rem;
+}
+
+#access-sec .container .text-sec {
+  padding-right: 0;
+}
+
+#access-sec .container .form > input,
+#access-sec .container .form > button {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+#foot-sec .container {
+  padding: 4rem 3rem;
+}
+
+#foot-sec .contact span {
+  padding-left: 10px;
+}
+
+#foot-sec .container .logo {
+  padding-bottom: 2rem;
+}
+
+#foot-sec .container .logo img {
+  width: 50%;
+}
+
+#foot-sec .container .grid {
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+#foot-sec ul li {
+  padding: 5px 0;
+}
+
+#foot-sec .contact span,
+#foot-sec ul li {
+  font-family: "Open Sans", sans-serif;
+}
+
+#foot-sec .contact img {
+  width: 20px;
+}
+
+@media (max-width: 400px) {
+  #navbar .container ul li {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  #body-sec .container .text-sec .review {
+    width: 90%;
+  }
+}
